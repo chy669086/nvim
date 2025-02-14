@@ -1,8 +1,8 @@
-
 require("keybindings")
 require("config.lazy")
 require("plugin-config.bufferline")
 require("plugin-config.lualine")
+require("plugin-config.lspconfig")
 
 -- 编码方式 utf8
 vim.g.encoding = "UTF-8"
@@ -19,7 +19,7 @@ vim.wo.cursorline = true
 -- 显示左侧图标指示列
 vim.wo.signcolumn = "yes"
 -- 右侧参考线
-vim.wo.colorcolumn = "160"
+vim.wo.colorcolumn = "100"
 -- 缩进字符
 vim.o.tabstop = 4
 vim.bo.tabstop = 4
